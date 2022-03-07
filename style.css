@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#007EA7,#003249);
+    background-attachment: fixed;
+    font-family: 'Poppins';
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+nav{
+    padding: 20px;
+
+}
+
+cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    z-index:9999;
+    width: 100%;
+}
+
+.cabecalho{
+    margin: auto;
+    display: block;
+
+}
+
+#foto-cabecalho{
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 35px;
+}
+
+nav>a:hover{
+    background-image: linear-gradient(to right, #FDCA40, #F79824); 
+}
+
+nav{  
+    display: inline-block;
+    margin-left: 15%;
+}
+
+#titulo-inicial{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+#titulo-secundario{
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#pre-seta{
+    text-align: center;
+}
+
+#seta-baixo{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: white;
+}
+
+main{
+    margin-left: 40px;
+    color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.titulo-bot{
+    color: #FDCA40;
+    text-align: justify;
+}
+
+p{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    text-align: justify;
+    width: 1000px;
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.comandos-titulo{
+    margin-top: 50px;
+}
+
+img.comandos-png{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.question-add{
+    color: #FDCA40;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.description-add{
+    text-align: center;
+}
+
+.adicionar-botao{
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.link-bot{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dj408{
+    text-align: right;
+    width: 1000px;
+}
+
+ul{
+    columns: 2;
+}
+
+li{
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white ;
+    padding: 70px;
+}
+
+.footer-border{
+    height: 20px;
+    background-image: linear-gradient(to right, #FDCA40, #F79824);
+    margin-top: 250px;
+}
+
